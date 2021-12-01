@@ -33,7 +33,7 @@ function gotResult(error, results) {
 
 function draw() {
   if(status != undefined) {
-  	  image(img, 0, 0, 640, 420);
+  	  image(img, 0, 0, 640, 480);
     for (var i = 0; i < objects.length; i++) {
       document.getElementById("status").innerHTML = "Status : Objects Detected";
 
